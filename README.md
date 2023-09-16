@@ -28,7 +28,9 @@ class Who:
         ]
         self.skills = [
             "🐍 Python",
-            "☕ Java"
+            "☕ Java",
+            "🐘 PostgreSQL",
+            "🍃 MongoDB"
         ]
     def get_interests(self) -> str:
         return " | ".join(self.interests)
